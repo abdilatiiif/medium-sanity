@@ -1,7 +1,9 @@
+import MainContent from "../../components/MainContent";
+
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center ">
-      heyhey
+    <div className="container mx-auto px-4 py-8">
+      <MainContent />
     </div>
   );
 }
