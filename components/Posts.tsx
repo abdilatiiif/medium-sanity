@@ -74,6 +74,7 @@ export default async function IndexPage() {
                       alt={post.author?.name ?? "Author"}
                       width={40}
                       height={40}
+                      loading="eager"
                       className="h-10 w-10 rounded-full object-cover"
                     />
                   ) : null}
